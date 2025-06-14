@@ -1,4 +1,4 @@
-# 第一阶段：编译码
+# 第一阶段：编译代码
 FROM maven:3.8.4-openjdk-17 AS build
 WORKDIR /app
 COPY pom.xml .
